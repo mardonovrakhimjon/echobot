@@ -1,3 +1,1 @@
-messages = {
-    'start': 'Assalomu alaykum {}! Echo Botga xush kelibsiz.'
-}
+messages = {"start": "Assalomu alaykum {}! Echo Botga xush kelibsiz."}
