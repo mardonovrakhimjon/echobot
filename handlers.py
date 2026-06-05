@@ -70,5 +70,4 @@ def save_user(update):
 
 def start_funksiyasi(message):
     
-    # 1. Birinchi bo'lib foydalanuvchini jsonga saqlaymiz:
     save_user(message.from_user.id, message.from_user.username, message.from_user.first_name)
