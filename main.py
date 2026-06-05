@@ -7,6 +7,8 @@ from handlers import (
     echo_photo,
     main_menu,
     products_menu,
+    save_user,
+    start_funksiyasi
 )
 
 
@@ -15,6 +17,7 @@ def main():
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(handler=CommandHandler(command="start", callback=start))
+
     dispatcher.add_handler(
         handler=MessageHandler(filters=Filters.text("Bosh Sahifa"), callback=main_menu)
     )
